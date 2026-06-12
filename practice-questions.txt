@@ -1,0 +1,90 @@
+Easy (if and else)
+Check whether a number is positive or negative.
+Check whether a number is even or odd.
+Check whether a person is eligible to vote (age 18 or above).
+Check whether a number is divisible by 5.
+Compare two numbers and print the larger one.
+Check if a password entered matches a predefined password.
+Determine whether a student passed or failed (passing marks = 40).
+Check whether a year is a leap year (basic version).
+Check whether a character is a vowel or a consonant.
+Determine if a number is greater than 100.
+Medium (if, elif, else)
+Assign grades based on marks:
+90–100: A
+80–89: B
+70–79: C
+Below 70: Fail
+Create a simple calculator that performs:
+Addition
+Subtraction
+Multiplication
+Division
+Determine the season based on the month number.
+Check whether a number is:
+Positive
+Negative
+Zero
+Categorize a person's age:
+Child
+Teenager
+Adult
+Senior Citizen
+Determine ticket pricing:
+Child: ₹50
+Adult: ₹100
+Senior: ₹70
+Find the largest among three numbers.
+Check if a year is:
+Leap year
+Not a leap year
+Determine whether a day number (1–7) corresponds to:
+Monday
+Tuesday
+...
+Sunday
+Check BMI category:
+Underweight
+Normal
+Overweight
+Obese
+Challenge Problems
+Determine whether a triangle is:
+Equilateral
+Isosceles
+Scalene
+Calculate electricity bill based on units consumed:
+Different rates for different ranges.
+Determine income tax slab based on annual income.
+Check whether a character is:
+Uppercase letter
+Lowercase letter
+Digit
+Special character
+Create a login system:
+Correct username and password → Login successful
+Wrong username → Invalid username
+Correct username but wrong password → Invalid password
+Determine shipping charges based on order amount.
+Find whether a number is:
+Single-digit
+Double-digit
+Triple-digit
+More than three digits
+Categorize temperature:
+Cold
+Warm
+Hot
+Determine movie ticket eligibility based on age and movie rating.
+Build a menu-driven restaurant ordering system where different menu choices lead to different outputs.
+Mini Real-World Projects
+ATM withdrawal eligibility checker.
+Student scholarship eligibility checker.
+Online shopping discount calculator.
+Bank loan approval checker.
+Exam result analyzer (multiple subjects).
+Mobile recharge plan selector.
+Parking fee calculator.
+Ride fare estimator.
+Cricket match result predictor based on scores.
+Attendance eligibility checker for exams.
