@@ -62,7 +62,3 @@ if(flag == rev):
     print("Palindrome Number")
 else:
     print("Not a Plaindrome Number")
-
-
-
-
