@@ -25,5 +25,4 @@ for i in range(2,num):
 if temp > 0:
     print("Composite")
 else:
-    print("Prime")
-    
+    print("Prime")   
