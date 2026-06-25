@@ -5,17 +5,12 @@ def greet():
     print("Welcome to Python batch")
 
 #2. calling
-greet()
-greet()
 
 #function with param without return
 
 def addTwoNums(n1,n2):
     total = n1 + n2
-    print("total is",total,sep="*")
-
-addTwoNums(10,20)
-addTwoNums(5,7)
+    print("total is",total,sep=" $ ")
 
 
 def printNums(start,end):
@@ -23,19 +18,12 @@ def printNums(start,end):
         print(start,end=" ")
         start+=1
 
-printNums(1,10)
-print()
-printNums(10,20)
-print()
 #function without params with return
 
 def getEmpId():
     empId = "Emp001"
     return empId;
 
-
-empid = getEmpId()
-print(empid)
 
 
 #function with params with return
@@ -51,5 +39,14 @@ def fibonacciSeries(n):
         b = c        
     return fibSeries
 
-fibonacci = fibonacciSeries(5)
-print(fibonacci)
+print(__name__)
+
+if __name__ == "__main__":
+    greet()
+    addTwoNums(10,20)
+    printNums(10,20)
+    print()
+    empid = getEmpId()
+    print(empid)
+    fibonacci = fibonacciSeries(5)
+    print(fibonacci)
