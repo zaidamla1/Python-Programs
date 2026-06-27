@@ -88,3 +88,81 @@ Parking fee calculator.
 Ride fare estimator.
 Cricket match result predictor based on scores.
 Attendance eligibility checker for exams.
+
+
+===============OOP Questions======================
+1. The Digital Bank Account
+The Concept: Create an object that acts like a single checking account.
+
+Attributes to Track: Account number, holder name, and balance.
+
+Methods to Implement:
+
+deposit(amount): Increases the balance.
+
+withdraw(amount): Decreases the balance only if the account has enough funds; otherwise, print an error.
+
+display_statement(): Prints the current balance and account holder details.
+
+2. Retail Inventory Item
+The Concept: Manage a single product item in a store's warehouse.
+
+Attributes to Track: Product ID, name, price, and stock quantity.
+
+Methods to Implement:
+
+restock(quantity): Adds more units to the stock.
+
+sell(quantity): Reduces the stock quantity by the amount sold and prints the total price for the transaction. If stock is insufficient, prevent the sale.
+
+apply_discount(percentage): Lowers the price of the product permanently by the given percentage.
+
+3. Student Grading System
+The Concept: Track an individual student's academic performance.
+
+Attributes to Track: Student name, roll number, and a list/array of numerical marks.
+
+Methods to Implement:
+
+add_mark(score): Appends a new exam score to the student's record.
+
+calculate_average(): Computes and returns the mean of all stored marks.
+
+get_final_grade(): Returns a letter grade (A, B, C, F) based on the calculated average score.
+
+4. Smart Thermostat
+The Concept: Model a home automation device that controls temperature settings.
+
+Attributes to Track: Current temperature, target temperature, and system mode (e.g., "Heating", "Cooling", or "Off").
+
+Methods to Implement:
+
+set_target(temp): Updates the desired temperature.
+
+update_system(): Checks the current temperature against the target. If the current temperature is lower than the target, change the mode to "Heating". If it's higher, change it to "Cooling". If they match, turn it "Off".
+
+5. Movie Rental Queue
+The Concept: Track movie details and availability for a rental service.
+
+Attributes to Track: Movie title, director, rental price, and a boolean flag indicating if it is currently checked out.
+
+Methods to Implement:
+
+rent_movie(): Sets the availability flag to false. If already rented, notify the user.
+
+return_movie(): Sets the availability flag back to true.
+
+get_info(): Summarizes the movie details and whether it can currently be borrowed.
+
+6. Smartphone Contact Book (Interaction Exercise)
+The Concept: Create two classes where objects of one class interact with objects of another.
+
+Class 1: Contact
+
+Attributes: Name, phone number, and email.
+
+Class 2: ContactBook
+
+Attributes: A list/array that holds multiple Contact objects.
+
+Methods: add_contact(contact_obj), search_by_name(name) (loops through the list to find a match), and delete_contact(name).
