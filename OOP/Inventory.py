@@ -36,6 +36,4 @@ i1 = Inventory('P-001',"Rice",500,10)
 i1.restock(5)
 i1.apply_discount(20)
 i1.sell(15)
-i1.invoice()
-
-        
+i1.invoice()      
