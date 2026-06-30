@@ -33,5 +33,4 @@ sub3 = int(input("Enter marks of science"))
 s1 = Student("Manish", 12,[sub1,sub2,sub3])
 print(s1.add_mark(0))
 print(s1.calculate_average())
-s1.get_final_grade()
-        
+s1.get_final_grade()        
