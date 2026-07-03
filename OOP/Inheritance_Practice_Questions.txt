@@ -1,0 +1,84 @@
+1. The Employee Hierarchy
+Parent Class: Employee
+
+Attributes: name, employee_id, base_salary.
+Method: display_info() -> Prints the employee's name, ID, and base salary.
+
+Child Class 1: Manager (Inherits from Employee)
+
+New Attribute: team_size.
+
+New Method: conduct_meeting() -> Prints a message saying the manager is hosting a meeting for their team.
+
+Child Class 2: Developer (Inherits from Employee)
+
+New Attribute: programming_language.
+
+New Method: write_code() -> Prints a message saying the developer is writing code in their specific language.
+
+
+
+
+
+2. The Electronic Devices Grid
+Parent Class: Device
+
+Attributes: brand, power_consumption_watts, is_on (a true/false flag).
+
+Methods: turn_on() and turn_off() -> Changes the is_on flag and prints the status.
+
+Child Class 1: SmartTV (Inherits from Device)
+
+New Attribute: screen_size_inches.
+
+New Method: change_channel(number) -> Prints a message showing the channel changed.
+
+Child Class 2: Refrigerator (Inherits from Device)
+
+New Attribute: target_temperature.
+
+New Method: adjust_temp(degrees) -> Changes the target temperature attribute.
+
+
+
+
+3. Vehicle Dealership System
+Parent Class: Vehicle
+
+Attributes: make, model, year, mileage.
+
+Method: drive(miles) -> Adds the driven miles directly to the mileage attribute.
+
+Child Class 1: Car (Inherits from Vehicle)
+
+New Attribute: number_of_doors.
+
+New Method: open_trunk() -> Prints a confirmation message.
+
+Child Class 2: Truck (Inherits from Vehicle)
+
+New Attribute: towing_capacity_lbs.
+
+New Method: load_cargo() -> Prints a message that the truck bed is being filled.
+
+
+
+
+4. Media Library System
+Parent Class: LibraryItem
+
+Attributes: title, publisher, catalog_number.
+
+Method: checkout_item() -> Prints a message stating the item has been borrowed.
+
+Child Class 1: Book (Inherits from LibraryItem)
+
+New Attribute: author, page_count.
+
+New Method: read_summary() -> Prints a brief description of the book.
+
+Child Class 2: Magazine (Inherits from LibraryItem)
+
+New Attribute: issue_number, publish_month.
+
+New Method: view_editor_note() -> Prints the title of the editor's column for that issue.
