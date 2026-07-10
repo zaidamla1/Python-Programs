@@ -1,0 +1,28 @@
+2. Bank Transaction Fees
+Parent Class: SavingsAccount
+
+Attributes: balance
+
+Method to Override: withdraw(amount) -> Deducts the amount directly from the balance and prints the new balance.
+
+Child Class: PremiumSavingsAccount (Inherits from SavingsAccount)
+
+Overridden Method: withdraw(amount) -> Redefine this method so that whenever a withdrawal happens, it deducts the amount plus a flat $2 transaction fee from the balance.
+
+
+
+
+3. Video Game Damage System
+Parent Class: GameCharacter
+
+Attributes: health, attack_power
+
+Method to Override: deal_damage() -> Returns the raw attack_power value as the damage dealt.
+
+Child Class 1: Warrior (Inherits from GameCharacter)
+
+Overridden Method: deal_damage() -> Redefine this so it returns the attack_power multiplied by 1.5 (representing a critical physical strike).
+
+Child Class 2: Mage (Inherits from GameCharacter)
+
+Overridden Method: deal_damage() -> Redefine this so it returns the attack_power plus a bonus 10 points (representing added magic damage).
